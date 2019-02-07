@@ -13,6 +13,12 @@ English and Russian included, also .pot file.
  - CMake backend provider (make or ninja)
  
  *For alpine, you can use this command:* ```apk add --update cmake make musl-dev gcc gettext-dev libintl```
+ 
+ :warning: Don't forget do export `MUSL_LOCPATH` env variable 
+ 
+ ```
+ export MUSL_LOCPATH=/usr/local/share/i18n/locales/musl
+ ```
 
 ## License
 
